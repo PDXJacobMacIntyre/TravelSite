@@ -1,0 +1,222 @@
+body {
+	/* image is public domain, sourced from: "http://www.publicdomainpictures.net/view-image.php?image=183850&picture=travel-background" */
+	margin: 0;
+	padding: 0;
+}
+
+.class {clear: both;}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #76bedb;
+}
+
+/*==== Header ====*/
+
+.header {
+	height: 110px;
+	position: relative;
+	margin-top: 10px;
+}
+
+/*==== Navigation ====*/
+
+div#navigation {
+	width: 797px;
+	height: 110px;
+	position: absolute;
+	font-family: Garamond, serif;
+	color: #474645;
+	background-color: #f4f1ed;
+	border: 2px outset;
+}
+
+#navigation a:link, a:visited {
+	border-width: 3px;
+	border-style: outset;
+	color: #474645;
+	padding: 3px;
+}
+
+#navigation a:hover, a:active {
+	border-width: 3px;
+	border-style: inset;
+	color: #f4ec46;
+	background-color: #1262e2;
+}
+
+.current {
+	color: red;
+	font-size: 24px;
+	border-width: 1px;
+	border-style: solid;
+	background-color: red;
+}
+
+#navigation ul {
+	height: 75px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+
+#navigation li {
+	font-size: 20px;
+	display: inline;
+	margin: 0px 30px;
+}
+
+li#linkTitle {
+	font-size: 28px;
+	font-weight: bold;
+	color: #474645;
+	display: block;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+/*==== Main Content ====*/
+
+.mainContent {
+	background: linear-gradient(to bottom right, #f9bcb1, #ffffbc);
+	float: left;
+	width: 530px;
+	margin-top: 150px;
+}
+
+h2, h3 {
+	font-family: "Footlight MT", serif;
+	padding: 5px;
+	margin-left: 10px;
+	line-height: .5em;
+}
+
+p {
+	font-family: Garamond, serif;
+	font-size: 18px;	
+	max-width: 525px;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+#PitLink a:link {
+	color: #2339c6;
+}
+
+#PitLink a:visited {
+	color: #9e23c6;
+}
+
+#Crash a:link {
+	color: #2339c6;
+}
+
+#Crash  a:visited {
+	color: #9e23c6;
+}
+
+#Crash ol {
+	text-align: left;
+	margin: 0;
+	font-size: 16px;
+}
+
+#Crash li{
+	padding: 10px;
+}
+
+#Dash ul {
+	text-align: left;
+	margin: 0;
+	font-size: 16px;
+}
+
+#Dash li{
+	padding: 5px;
+}
+
+/*==== Picture Gallery ====*/
+
+div.image {
+	margin: 15px;
+	border: 2px outset #474645;
+	float: left;
+	width: 130px;
+	padding: 5px;
+}
+
+div.image:hover  {
+	border: 2px inset #f4ec46;
+}
+
+div.image img {
+	width: 100%;
+	height: auto;
+}
+
+div.description {
+	padding: 10px;
+	text-align: center;
+}
+
+/*==== Pitfalls ====*/
+
+div.pitFalls h3 {
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 20px;
+	clear: left;
+}
+
+div.pitFalls p {
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+/*==== Aside ====*/
+
+.container div#Sidebar {
+	float: left;
+	background-color: #f4f1ed;
+	border: 2px solid #FFF;
+	width: 265px;
+	padding: 0;
+	margin-top: 150px;
+}
+
+#Sidebar h3 {
+	font-family: 'Footlight MT', serif;
+	font-size: 32px;
+	text-align: center;
+	margin: 10px;
+	padding-top: 5px;
+}
+
+#Sidebar p {
+	font-family: 'Bilbo Swash Caps', cursive;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 500;
+	max-width: 220px;
+	padding: 5px;
+}
+
+/*==== Table ====*/
+
+.Emergency  table, th, td {
+	background: white;
+	color: #dee0e8;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 800px;
+	margin: auto;
+	padding: 5px;
+}
+
+/*==== Footer ====*/
+
+div.footer  p {
+	color: white;
+	text-align: left;
+	
+}
